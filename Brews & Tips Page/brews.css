@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(Images/white-marble-texture-pattern-skin-tile-wallpaper-luxurious-background-detailed-genuine-nature-91348085.jpg);
+}
+
+#mainWrapper {
+    width: 100%;
+    margin: 0 auto;
+    height: 123px;
+}
+#logo a img {
+    max-width: 160px;
+    display: inline-block;
+    float: none;
+    margin-left: 27px;
+}
+
+.navbar ul {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0;
+    margin-top: -115px;
+    margin-right: 0;
+    margin-left: 482px;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+.navbar li {
+    display: inline-block; /* Makes the list items horizontal */
+    margin-right: 26px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    color: rgba(0, 0, 0, 1.00);
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-weight: bolder;
+    margin-left: -26px;
+}
+
+.navbar a {
+    text-decoration: none; /* Removes underline */
+    color: #000000;           /* Adjust the link color */
+    font-weight: bold;
+    padding: 10px 15px;
+    font-size: medium;
+    transition: background-color 0.3s ease;
+	cursor: pointer;
+}
+
+.navbar a:hover {
+    color: inherit;        /* Hover effect for links */
+    background-color: rgba(155,148,148,1.00);
+    border-radius: 5px;
+}
+
+.navvbar nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 52px;
+    background-color: rgba(206,188,156,1.00);
+    padding-top: 21px;
+    padding-right: 0px;
+    padding-bottom: 21px;
+    padding-left: 0px;
+}
+.navvbar nav ul li {
+    display: inline-block;
+    margin-left: 63px;
+    margin-right: 106px;
+    justify-content: center;
+    color: rgba(0,0,0,1.00);
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+    font-weight: bold;
+}
+.navvbar nav h2 {
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	color: #654321;
+	font-size: 40px;
+	font-weight: bolder;
+	margin-left: 53px;
+}
+.navvbar a {
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    font-weight: bold;
+    color: rgba(0,0,0,1.00);
+    text-decoration: none;
+	transition: background-color 0.3s ease;
+}
+.navvbar a:hover {
+    border-radius: 8px;
+    background-color: rgba(155,148,148,1.00);
+    color: rgba(0,0,0,1.00);
+}
+
+.tip-content {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Adds space between each tip */
+}
+
+.tip-content img {
+    margin-right: 20px; /* Space between image and text */
+    max-width: 300px; /* Optional: Limits image size */
+    margin-left: 43px;
+}
+
+
+.tip-content h2 {
+    margin-right: 24px;
+    padding-right: 0px;
+    text-align: justify;
+    font-size: x-large;
+}
+.tipss .tip-content .text-content {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-weight: normal;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #654321;
+    color: #fff;
+    padding: 20px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+footer div {
+    width: 30%;
+}
+
+.footerlinks p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footerlinks p a:hover {
+    text-decoration: underline;
+}
+nav ul li {
+}
+footer div p {
+    font-weight: normal;
+    font-size: large;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    text-align: center;
+}
+ul a img {
+    margin-top: -7px;
+}
