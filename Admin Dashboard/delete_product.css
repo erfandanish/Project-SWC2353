@@ -1,0 +1,83 @@
+@charset "utf-8";
+body {
+    background-image: url(Images/white-marble-texture-pattern-skin-tile-wallpaper-luxurious-background-detailed-genuine-nature-91348085.jpg);
+}
+body a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    background-color: #43AB19;
+    border-radius: 5px;
+    padding-top: 9px;
+    padding-right: 16px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+}
+body a:hover {
+    background-color: #2E7711;
+}
+
+
+body h1 {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+
+/* Center the form on the page */
+form {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #f8f8f8;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Style the form label */
+form label {
+    font-weight: bold;
+    font-size: 15px;
+    color: #333333;
+    display: block;
+    margin-bottom: 10px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Style the input field */
+form input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/* Style the submit button */
+form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #d9534f;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #c9302c;
+}
+
+/* Optional: focus style for input field */
+form input[type="number"]:focus {
+    border-color: #d9534f;
+    outline: none;
+}

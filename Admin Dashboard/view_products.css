@@ -1,0 +1,70 @@
+@charset "utf-8";
+body {
+    background-image: url(Images/white-marble-texture-pattern-skin-tile-wallpaper-luxurious-background-detailed-genuine-nature-91348085.jpg);
+}
+
+
+
+body h1 {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-align: left;
+}
+body a {
+    color: #F9F9F9;
+    font-weight: bold;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #43AB19;
+    border-radius: 5px;
+    padding-top: 9px;
+    padding-right: 16px;
+    padding-bottom: 9px;
+    padding-left: 16px;
+    margin-top: -26px;
+    text-decoration: none;
+}
+body a:hover {
+    background-color: #2E7711;
+}
+
+
+body table {
+    margin-top: 26px;
+    background-color: #f5f5dc;
+    border-color: #a67c52;
+    border-style: none;
+    color: #000000;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    text-align: center;
+}
+table tr th {
+    padding-left: 88px;
+    text-align: justify;
+    padding-right: 88px;
+    color: #000000;
+    font-weight: bold;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+body form {
+    margin-top: 28px;
+}
+
+body form input {
+    background-color: #CCCCCC;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    color: #000000;
+    border-radius: 12px;
+    border-color: #000000;
+}
+body form button {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    padding-left: 21px;
+}
