@@ -1,6 +1,6 @@
 @charset "utf-8";
 header {
-    width: 100%; /* Full width */
+    width: 100%; 
     height: 123px;
     background-color: rgba(255,255,255,0.00);
     color: rgba(249,241,241,1.00);
@@ -9,9 +9,9 @@ header {
     padding-top: 0px;
     padding-right: 0px;
     padding-left: 0px;
-    padding-bottom: 0px; /* Ensure no padding around the header */
-    box-sizing: border-box; /* Make sure padding does not affect width */
-    position: relative; /* Maintain normal document flow */
+    padding-bottom: 0px; 
+    box-sizing: border-box; 
+    position: relative; 
     background-image: url(url);
     background-repeat: repeat-x;
     background-size: auto auto;
@@ -61,9 +61,9 @@ body {
 /* Navigation Bar */
 nav ul {
     list-style-type: none;
-    display: flex; /* Use flexbox */
-    justify-content: flex-end; /* Right-align the items */
-    padding: 0; /* Remove any margin */
+    display: flex; 
+    justify-content: flex-end; 
+    padding: 0; 
     margin-top: -124px;
 }
 
@@ -72,11 +72,11 @@ nav ul li {
     padding-top: 10px;
     padding-right: 15px;
     padding-left: 15px;
-    padding-bottom: 10px; /* Control padding here */
+    padding-bottom: 10px; 
     color: rgba(0, 0, 0, 1.00);
     font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
     font-weight: bolder;
-    margin-left: 2px; /* Adjust this if needed */
+    margin-left: 2px; 
     margin-right: 34px;
 }
 ul a img {
@@ -86,7 +86,7 @@ ul a img {
     margin-top: -1px;
 }
 ul a img:hover {
-    color: inherit;        /* Hover effect for links */
+    color: inherit;        
     background-color: rgba(155,148,148,1.00);
     border-radius: 5px;
     padding-top: 0px;
@@ -98,24 +98,23 @@ ul a img:hover {
 
 
 nav ul li:hover {
-    background-color: rgba(212, 204, 204, 1.00); /* Background color on hover */
-    color: rgba(0, 0, 0, 1.00); /* Change text color on hover */
+    background-color: rgba(212, 204, 204, 1.00); 
+    color: rgba(0, 0, 0, 1.00);
     border-radius: 5px;
 }
 
 nav ul li a {
-    text-decoration: none; /* Remove underline */
-    color: inherit; /* Inherit text color */
-    display: block; /* Block-level for full clickable area */
-    font-weight: inherit; /* Inherit font weight from <li> */
-    width: 100%; /* Full width for proper hover sizing */
-    height: 100%; /* Full height to match padding in <li> */
-    padding: 0; /* Reset padding on the <a> tag to avoid double padding */
-}
+    text-decoration: none; 
+    color: inherit; 
+    display: block; 
+    font-weight: inherit; 
+    width: 100%; 
+    height: 100%; 
+    padding: 0; 
 
 
 nav ul li:hover a {
-    color: inherit; /* Keep the text color inherited */
+    color: inherit; 
 	 
     
 }
@@ -124,24 +123,24 @@ nav ul li:hover a {
 
 
 #hero {
-    width: 100%; /* Full width */
+    width: 100%; 
     height: 550px;
     background: 
         linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-        url(Images/451042.jpg); /* Combine gradient and image */
+        url(Images/451042.jpg); /
 	background-attachment: fixed;
-    background-size: cover; /* Make sure the background image covers the entire section */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* No repeat */
-    margin: 0; /* Remove any margin */
-    padding: 0; /* Remove padding */
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    margin: 0; 
+    padding: 0; 
     color: rgba(250, 242, 242, 1.00);
-    box-sizing: border-box; /* Prevent padding from affecting width */
-    display: flex; /* Use flexbox for centering content */
-    flex-direction: column; /* Align items vertically */
-    justify-content: center; /* Center items vertically */
-    align-items: center; /* Center items horizontally */
-    text-align: center; /* Center text */
+    box-sizing: border-box; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
 }
 
 
@@ -195,7 +194,7 @@ nav ul li:hover a {
 #hero ul {
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: #a38350; /* Coffee-like color */
+    background-color: #a38350; 
     color: white;
     border: none;
     border-radius: 5px;
@@ -233,7 +232,7 @@ nav ul li:hover a {
 }
 
 .coffee-item img {
-    width: 200px; /* Adjust as needed */
+    width: 200px; 
     height: auto;
     border: medium none rgba(11,11,11,1.00);
     border-radius: 58px;
@@ -249,15 +248,15 @@ p {
 }
 
 .discover-more {
-    display: inline-block; /* Make sure the button doesn't stretch */
+    display: inline-block; 
     padding: 10px 20px;
-    background-color: #a38350; /* Brown color to match the theme */
+    background-color: #a38350; 
     color: white;
     font-size: 18px;
     border-radius: 4px;
     border: none;
     cursor: pointer;
-    max-width: 200px; /* Limit the maximum width */
+    max-width: 200px; 
     text-align: center;
 }
 .discover-more a {
@@ -345,7 +344,7 @@ input:focus {
 button {
     width: 90%;
     padding: 10px;
-    background-color: #FF7043; /* Brown color */
+    background-color: #FF7043; 
     color: white;
     border: none;
     border-radius: 4px;
@@ -355,7 +354,7 @@ button {
 }
 
 button:hover {
-    background-color: #FF9677; /* Darker shade of brown */
+    background-color: #FF9677; 
 }
 
 
